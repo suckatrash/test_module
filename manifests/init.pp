@@ -1,5 +1,5 @@
 class test_module {
-  file { '/tmp/test1':
+  file { '/tmp/test':
     ensure => 'file',
     source => 'puppet:///modules/test_module/test',
   }
